@@ -41,7 +41,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp RU_CYRILLIC_IO &trans   &trans   &trans   &trans   &trans      &trans    &trans    &trans    &trans   &kp LBKT &kp RBKT
+   &kp ESC   &trans   &trans   &trans   &trans   &trans      &trans    &trans    &trans    &trans   &kp LBKT &kp RBKT
    &kp TAB   &trans   &trans   &trans   &trans   &trans      &trans    &trans    &trans    &trans   &trans   &kp BSLH
    &kp LSHFT &trans   &trans   &trans   &trans   &trans      &trans    &trans    &trans    &trans   &trans   &kp TILDE
                                &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
