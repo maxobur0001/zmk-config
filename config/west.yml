@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    - name: maxobur0001
+      url-base: https://github.com/maxobur0001
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-nice-oled
-      remote: mctechnology17
+      remote: maxobur0001
       revision: main
   self:
     path: config
