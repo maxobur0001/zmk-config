@@ -12,5 +12,6 @@ manifest:
     - name: zmk-nice-oled
       remote: maxobur0001
       revision: main
+    - name: encoder
   self:
     path: config
