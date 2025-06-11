@@ -4,8 +4,8 @@
 
 left_encoder: encoder_left {
     compatible = "alps,ec11";
-    a-gpios = <B2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-    b-gpios = <B4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    a-gpios = <16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     steps = <80>;
     status = "okay";
 };
@@ -41,7 +41,7 @@ left_encoder: encoder_left {
    &kp LSHFT &kp C_VOL_UP &kp C_VOL_DN &kp K_PREV   &kp K_PP     &kp K_NEXT     &kp C_BRI_UP &kp C_BRI_DN &kp DEL      &trans    &kp BSLH  &kp TILDE
                                        &kp LGUI     &trans       &kp SPACE      &kp RET      &kp ESC      &kp BSPC
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+                        sensor-bindings = <&left_encoder>;
                 };
         };
 };
